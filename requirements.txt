@@ -1,9 +1,10 @@
 ultralytics
 torch
-opencv-python
+opencv-python-headless
 streamlit
 pandas
 altair
 numpy
 Pillow
 pyyaml
+
