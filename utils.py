@@ -1,5 +1,6 @@
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont
+import cv2
 
 # Compliance logic
 # Given a person bbox and list of PPE detections, decide which PPE items are present
@@ -49,3 +50,4 @@ def draw_boxes(image_np, detections, class_map=None):
 def pil_from_cv2(cv2_img):
 
     return Image.fromarray(cv2.cvtColor(cv2_img, cv2.COLOR_BGR2RGB))
+
